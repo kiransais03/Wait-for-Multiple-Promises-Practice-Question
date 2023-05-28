@@ -76,6 +76,6 @@ function addtoui() {
 	tbody.innerHTML="";
 	    tbody.innerHTML =`<tr> <td>Promise 1</td>  <td>${timearr[0]}</td> </tr>
         <tr> <td>Promise 2</td> <td>${timearr[1]}</td> </tr>
-        <tr> <td>Promise 3</td> <td>${timearr[2]}</td> </tr>
-        <tr> <td>Total</td> <td>${totaltime}</td> </tr>`
+        <tr> <td>Promise 3</td> <td>${timearr[2]} (Actual Time Taken Because of Async Of Timeout)</td> </tr>
+        <tr> <td>Total Time If Synchronous Operation Done</td> <td>${totaltime}</td> </tr>`
 }
